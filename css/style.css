@@ -44,6 +44,9 @@ header a{
 header a:hover{
     color: black;
     font-weight: 900;
+    animation-name: cambiocolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .header ul{
@@ -153,4 +156,9 @@ header a:hover{
         margin-top: 5px;
     }
 
+}
+@keyframes cambiocolor{
+    0%{color:blue;}
+    50%{color:aqua;}
+    100%{color:black;}
 }

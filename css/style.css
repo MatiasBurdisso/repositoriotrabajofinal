@@ -28,6 +28,13 @@
     margin-top: 5px;
     background-image: linear-gradient(to bottom, black, gray);
 }
+header img{
+    transform: translate(0px, 50px);
+}
+header img:hover{
+    height: 50px; 
+    
+}
 header a{
     color: rgb(249, 246, 255);
     text-decoration: none;
@@ -75,7 +82,7 @@ header a:hover{
 .eventos img{
     height: 480px;
     width: 500px;
-
+    transform: skew(358deg);
 }
 
 .galeria{

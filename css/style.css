@@ -26,6 +26,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 5px;
+    background-image: linear-gradient(to bottom, black, gray);
 }
 header a{
     color: rgb(249, 246, 255);
@@ -101,6 +102,7 @@ header a:hover{
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: flex-start;
+    background-image: linear-gradient(to top, black, gray);
 }
 .footer ul{
     list-style: none;

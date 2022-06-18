@@ -1,108 +1,56 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-
-}
-
-.contenedor{
-    width: 99%;
-    margin: 5px auto;
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(4,auto);
-    grid-template-areas:
-    "header header header"
-    "video1 eventos eventos"
-    "galeria galeria galeria"
-    "footer footer footer" ;
-
+    box-sizing: border-box;    
 }
 .header{
-    grid-area: header;
     background-color: gray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5px;
     background-image: linear-gradient(to bottom, black, gray);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
-header img{
-    transform: translate(0px, 50px);
+header a{
+    margin-left: 50px;
 }
 header img:hover{
     height: 50px; 
-    
 }
 header a{
-    color: rgb(249, 246, 255);
+    color: #C5B630;
     text-decoration: none;
     text-transform: uppercase;
     height: 10%;
 }
 header a:hover{
-    color: black;
+    color: gold;
     font-weight: 900;
     animation-name: cambiocolor;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
-
-.header ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    text-decoration: none;
-}
-.header li{
-    padding: 100px;
-    text-decoration: none;
+.main{
+    background-color: blue;
+    padding: 5px;
 }
 .video1{
-    grid-area: video1; 
+    display: flex;
+    display: row;
     background-color: #848c88;
     align-content: center;
+    padding: 5px;
 }
 .video1 video{
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 60%;
 }
-.eventos{
-    grid-area: eventos;
-    background-color: #848c88;
-    display: flex;
-    flex-direction: column;
+.video1 p{
+    width: 40%;
     align-items: center;
-}
-.eventos section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-
-.eventos img{
-    height: 480px;
-    width: 500px;
-    transform: skew(358deg);
-}
-
-.galeria{
-    grid-area: galeria;
-    background-color: #848c88;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.galeria section{
-    display:flex;
-    flex-direction: row;
-}
-.galeria img{
-    height: 300px;
-    width: 300px;
-    padding: 10px;
+    padding: 50px;
+    margin: auto;
+    color: #C5B630;
 }
 .footer{
     grid-area: footer;
@@ -130,35 +78,4 @@ header a:hover{
 .footer a:hover{
     color: black;
     font-weight: 900;
-}
-
-@media (max-width:758px) {
-    .contenedor{
-        width: 99%;
-        margin: 5px auto;
-        display: grid;
-        grid-gap: 5px;
-        grid-template-columns: repeat(3,auto);
-        grid-template-rows: repeat(4,auto);
-        grid-template-areas:
-        "header header header"
-        "eventos eventos eventos"
-        "galeria galeria galeria"
-        "footer footer footer" ;
-    
-    }
-    .header{
-        grid-area: header;
-        background-color: gray;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 5px;
-    }
-
-}
-@keyframes cambiocolor{
-    0%{color:blue;}
-    50%{color:aqua;}
-    100%{color:black;}
 }

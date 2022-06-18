@@ -9,51 +9,129 @@
     <link rel="shortcut icon" href="prototipo/android-icon-48x48.png" type="image/x-icon">
     <!-- link para iconos -->
     <script src="https://kit.fontawesome.com/023381233b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- linkeamos estilo -->
     <link rel="stylesheet" href="./css/style.css">
     <title>HOME/INICIO</title>
 </head>
 
 <body>
-    <div class="contenedor">
+    <div>
         <header class="header">
             <h1><a href="./index.html"><img src="./prototipo/android-icon-48x48.png" alt="Futbol"></a></h1>
-            <nav>
-                <ul class="animate__animated animate__slideInRight">
-                    <li><a href="./categoria.html">Categoria</a></li>
-                    <li><a href="./predio.html">Predio</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="./reglamento.html">Reglamento</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
-
-        <!-- section para poner el video de la ultima fecha -->
-        <section class="video1">
-            <video src="./prototipo/10000000_540930930767678_8890437990381064041_n.mp4" controls autoplay muted></video>
-        </section>
-        <!-- section para poner noticias y linkear con las fotos de cada fecha en facebook -->
-        <section class="eventos">
-            <h2 class="titulos">Eventos</h2>
-            <section>
-                <div><img src="./prototipo/eventos.jpg" alt="sunset"></div>
-                <div>
-                    <p>Vamos a parar la pelota por unos días , y este pequeño párate lo despedimos a lo grande .
-                        📝ANOTA , sábado 09/04 17 hs largamos el #SunsetGolden con algunos invitados sorpresa …
-                        #SentiteGolden #ClubTG</p>
+        <main class="main">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./prototipo/torneo femenino 2.jpg" class="d-block w-50 m-auto" alt="torneofemenino">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./prototipo/torneo libre2.jpg" class="d-block w-50 m-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./prototipo/torneo 302.jpg" class="d-block w-50 m-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./prototipo/musicaenvivo.jpg" class="d-block w-50 m-auto" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- section para poner el video de la ultima fecha -->
+            <section class="video1">
+                <video src="./prototipo/10000000_540930930767678_8890437990381064041_n.mp4" controls autoplay
+                    muted></video>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae pariatur vel possimus quis. Reiciendis expedita voluptate nisi? Ullam atque eius, enim perferendis ab cupiditate cum. Quam perspiciatis at nihil blanditiis animi alias! Fugiat, consequuntur velit beatae saepe adipisci consequatur numquam, molestiae vel culpa, repellendus tempora quis officiis provident! Odio, eveniet.</p>
             </section>
-        </section>
-        <section class="galeria">
-            <h2 class="titulos">Noticas</h2>
-            <section>
-                <div><img src="./prototipo/foto 1.jpg" alt="fecha1"></div>
-                <div><img src="./prototipo/foto 2.jpg" alt="fecha2"></div>
-                <div><img src="./prototipo/foto 3.jpg" alt="fecha3"></div>
-                <div><img src="./prototipo/foto 4.jpg" alt="fecha4"></div>
+            <!-- section para poner noticias y linkear con las fotos de cada fecha en facebook
+            <section class="eventos">
+                <h2 class="titulos">Eventos</h2>
+                <section>
+                    <div><img src="./prototipo/eventos.jpg" alt="sunset"></div>
+                    <div>
+                        <p>Vamos a parar la pelota por unos días , y este pequeño párate lo despedimos a lo grande .
+                            📝ANOTA , sábado 09/04 17 hs largamos el #SunsetGolden con algunos invitados sorpresa …
+                            #SentiteGolden #ClubTG</p>
+                    </div>
+                </section>
             </section>
-        </section>
+            <section class="galeria">
+                <h2 class="titulos">Noticas</h2>
+                <section>
+                    <div><img src="./prototipo/foto 1.jpg" alt="fecha1"></div>
+                    <div><img src="./prototipo/foto 2.jpg" alt="fecha2"></div>
+                    <div><img src="./prototipo/foto 3.jpg" alt="fecha3"></div>
+                    <div><img src="./prototipo/foto 4.jpg" alt="fecha4"></div>
+                </section>
+            </section> -->
+        </main>
         <footer class="footer">
             <!-- redes sociales -->
             <section class="redesociales">
@@ -70,6 +148,9 @@
             </ul>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

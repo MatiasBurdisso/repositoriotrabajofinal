@@ -5,7 +5,7 @@
 }
 .header{
     background-color: gray;
-    background-image: linear-gradient(to bottom, black, gray);
+    background-image: linear-gradient(to bottom, #353535, gray);
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -14,43 +14,52 @@
 header a{
     margin-left: 50px;
 }
-header img:hover{
-    height: 50px; 
+header img{
+    width: 100px;
+}
+/*header img:hover{
+    height: 60px; 
+}*/
+.slider{
+    background-image: url(../prototipo/fondo2.jpg);
+    background-size: cover;
 }
 header a{
-    color: #C5B630;
+    color: whitesmoke;
     text-decoration: none;
     text-transform: uppercase;
     height: 10%;
 }
 header a:hover{
-    color: gold;
+    color: #D9D9D9;
     font-weight: 900;
     animation-name: cambiocolor;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+
 .main{
-    background-color: blue;
+    background-image: url(../prototipo/fondo2.jpg);
+    background-size: cover;
     padding: 5px;
 }
 .video1{
     display: flex;
     display: row;
-    background-color: #848c88;
-    align-content: center;
+    align-items: flex-end;
     padding: 5px;
+    margin-top: 40px;
 }
 .video1 video{
-    height: 400px;
-    width: 60%;
+    height: 300px;
+    width: 200px;
 }
 .video1 p{
-    width: 40%;
+    width: 400px;
     align-items: center;
     padding: 50px;
     margin: auto;
-    color: #C5B630;
+    color: white;
 }
 .footer{
     grid-area: footer;
@@ -78,4 +87,33 @@ header a:hover{
 .footer a:hover{
     color: black;
     font-weight: 900;
+}
+.tarjetastorneos{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.formulario{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 17px;
+    width: 300px;
+    background-color: #848c88;
+}
+.jugadorlogo{
+    width: 50vh;
+    height: 50vh;
+}
+.maincontacto{
+    background-image: url(../prototipo/fondo2.jpg);
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagenpredio{
+    width: 100%;
 }

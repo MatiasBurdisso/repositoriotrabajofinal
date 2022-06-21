@@ -70,14 +70,13 @@ header a:hover{
 }
 
 .footer{
-    grid-area: footer;
     background-color: #848c88;
     display: flex;
     align-content: stretch;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row-reverse;
-    align-items: flex-start;
-    background-image: linear-gradient(to top, black, gray);
+    align-items: center;
+    background-image: linear-gradient(to top, gray,#353535 ,#353535);
 }
 .footer ul{
     list-style: none;
@@ -85,8 +84,15 @@ header a:hover{
 .redesociales a{
     color:#EDF2F4;
     border-radius: 100px;
-    padding: 5px;
+    padding: 1rem;
 }
+.navegable{
+    width: 30%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
 .navegable a{
     color:#EDF2F4;
     text-decoration: none;
@@ -145,4 +151,13 @@ header a:hover{
 }
 .letrajustificada{
     font-weight: 900;
+}
+.predio{
+    display: flex; 
+    color:whitesmoke
+}
+.patio{
+    margin: auto;
+    padding: 17px;
+    width: 300px;
 }

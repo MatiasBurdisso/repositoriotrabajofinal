@@ -114,6 +114,15 @@ header a:hover{
     align-content: center;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .imagenpredio{
     width: 100%;}
+.letracolorblanco{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 10%;
+}

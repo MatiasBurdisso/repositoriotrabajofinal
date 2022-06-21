@@ -38,8 +38,7 @@ header a:hover{
 }
 
 .main{
-    background-image: url(../prototipo/fondo2.jpg);
-    background-size: cover;
+    background-color: #2b2d42;
     padding: 5px;
 }
 .main h2{
@@ -60,8 +59,16 @@ header a:hover{
     align-items: center;
     padding: 50px;
     margin: auto;
-    color: white;
+    color: whitesmoke;
 }
+.video1 h2{
+    width: 50%;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    color: whitesmoke;
+}
+
 .footer{
     grid-area: footer;
     background-color: #848c88;
@@ -125,4 +132,17 @@ header a:hover{
     text-decoration: none;
     text-transform: uppercase;
     height: 10%;
+}
+.mainrelgamento{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 17px;
+    width: 98%;
+    background-color: #848c88;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: auto;
+}
+.letrajustificada{
+    font-weight: 900;
 }

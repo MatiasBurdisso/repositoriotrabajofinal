@@ -20,6 +20,8 @@ header img{
     height: 60px; 
 }*/
 .slider{
+    border: 1px solid black;
+    border-radius: 30px;
     background-image: url(../prototipo/fondo2.jpg);
     background-size: cover;
 }
@@ -50,6 +52,7 @@ header a:hover{
     align-items: flex-end;
     padding: 5px;
     margin-top: 40px;
+    align-content: center;
 }
 .video1 video{
     width: 50%;
@@ -57,16 +60,17 @@ header a:hover{
 .video1 p{
     width: 50%;
     align-items: center;
-    padding: 50px;
     margin: auto;
     color: whitesmoke;
 }
 .video1 h2{
     width: 50%;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
+    margin-bottom: 89px;
     margin: auto;
     color: whitesmoke;
+    align-content: center;
 }
 
 .footer{
@@ -160,4 +164,26 @@ header a:hover{
     margin: auto;
     padding: 17px;
     width: 300px;
+}
+@media (max-width:980px){
+    .video1{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        margin-top: 40px;
+        flex-direction: column-reverse;}
+    .predio {
+    display: flex;
+    color: whitesmoke;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;}
+    .tarjetastorneos {
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }

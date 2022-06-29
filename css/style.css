@@ -1,189 +1,92 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;    
-}
-.header{
-    background-color: #353535;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-}
-header a{
-    margin-left: 50px;
-}
-header img{
-    width: 100px;
-}
-/*header img:hover{
-    height: 60px; 
-}*/
-.slider{
-    border: 1px solid black;
-    border-radius: 30px;
-    background-image: url(../prototipo/fondo2.jpg);
-    background-size: cover;
-}
-header a{
-    color: whitesmoke;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 10%;
-}
-header a:hover{
-    color: #D9D9D9;
-    font-weight: 900;
-    animation-name: cambiocolor;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
 
-.main{
-    background-color: #2b2d42;
-    padding: 5px;
-}
-.main h2{
-    color: #D9D9D9;
-}
-.video1{
+header {
+  background-color: #353535;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center; }
+  header a {
+    margin-left: 50px; }
+    header a:hover {
+      color: #D9D9D9;
+      font-weight: 900;
+      animation-name: cambiocolor;
+      animation-duration: 3s;
+      animation-iteration-count: infinite; }
+    header a img {
+      width: 100px; }
+
+footer {
+  background-color: #848c88;
+  display: flex;
+  align-content: stretch;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-image: linear-gradient(to top, gray, #353535, #353535); }
+  footer .redesociales a {
+    color: #EDF2F4;
+    border-radius: 100px;
+    padding: 1rem; }
+  footer ul {
+    list-style: none; }
+    footer ul .navegable {
+      width: 30%;
+      display: flex;
+      padding: 1rem;
+      justify-content: space-around; }
+  footer .navegable {
+    width: 30%;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around; }
+  footer a {
+    color: #EDF2F4;
+    text-decoration: none;
+    list-style: none; }
+    footer a:hover {
+      color: black;
+      font-weight: 900; }
+
+.footer a:hover {
+  color: black;
+  font-weight: 900; }
+
+main {
+  background-color: #2b2d42;
+  padding: 5px; }
+  main .video1 {
     display: flex;
     display: row;
     align-items: flex-end;
     padding: 5px;
     margin-top: 40px;
-    align-content: center;
-}
-.video1 video{
-    width: 50%;
-}
-.video1 p{
-    width: 50%;
-    align-items: center;
-    margin: auto;
-    color: whitesmoke;
-}
-.video1 h2{
-    width: 50%;
-    align-items: center;
-    padding: 30px;
-    margin-bottom: 89px;
-    margin: auto;
-    color: whitesmoke;
-    align-content: center;
-}
+    align-content: center; }
+    main .video1 video {
+      width: 50%; }
+    main .video1 p {
+      width: 50%;
+      align-items: center;
+      margin: auto;
+      color: whitesmoke; }
+    main .video1 h2 {
+      color: #D9D9D9;
+      width: 50%;
+      align-items: center;
+      padding: 30px;
+      margin-bottom: 89px;
+      margin: auto;
+      color: whitesmoke;
+      align-content: center; }
 
-.footer{
-    background-color: #848c88;
+@media (max-width: 980px) {
+  .video1 {
     display: flex;
-    align-content: stretch;
-    justify-content: space-around;
-    flex-direction: row-reverse;
     align-items: center;
-    background-image: linear-gradient(to top, gray,#353535 ,#353535);
-}
-.footer ul{
-    list-style: none;
-}
-.redesociales a{
-    color:#EDF2F4;
-    border-radius: 100px;
-    padding: 1rem;
-}
-.navegable{
-    width: 30%;
-    display: flex;
-    padding: 1rem;
-    justify-content: space-around;
-}
-
-.navegable a{
-    color:#EDF2F4;
-    text-decoration: none;
-    list-style: none;
-}
-.footer a:hover{
-    color: black;
-    font-weight: 900;
-}
-.tarjetastorneos{
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-}
-.formulario{
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 17px;
-    width: 300px;
-    background-color: #848c88;
-}
-.jugadorlogo{
-    width: 500px;
-    height: 500px;
-}
-.maincontacto{
-    background-image: url(../prototipo/fondo2.jpg);
-    background-size: cover;
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.imagenpredio{
-    width: 100%;}
-.letracolorblanco{
-    color: whitesmoke;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 10%;
-}
-.mainrelgamento{
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 17px;
-    width: 98%;
-    background-color: #848c88;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin: auto;
-}
-.letrajustificada{
-    font-weight: 900;
-}
-.predio{
-    display: flex; 
-    color:whitesmoke
-}
-.patio{
-    margin: auto;
-    padding: 17px;
-    width: 300px;
-}
-@media (max-width:980px){
-    .video1{
-        display: flex;
-        align-items: center;
-        padding: 5px;
-        margin-top: 40px;
-        flex-direction: column-reverse;}
-    .predio {
-    display: flex;
-    color: whitesmoke;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: center;}
-    .tarjetastorneos {
-        padding: 5px;
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-}
+    padding: 5px;
+    margin-top: 40px;
+    flex-direction: column-reverse; } }

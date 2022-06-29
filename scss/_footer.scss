@@ -1,0 +1,44 @@
+footer{
+    background-color: #848c88;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-image: linear-gradient(to top, gray,#353535 ,#353535);
+    .redesociales a{
+        color:#EDF2F4;
+        border-radius: 100px;
+        padding: 1rem;
+    }
+    ul{
+        list-style: none;
+        .navegable{
+            width: 30%;
+            display: flex;
+            padding: 1rem;
+            justify-content: space-around;
+        }
+
+    }
+    .navegable{
+        width: 30%;
+        display: flex;
+        padding: 1rem;
+        justify-content: space-around;
+    }
+    a{
+        color:#EDF2F4;
+        text-decoration: none;
+        list-style: none;
+        &:hover{
+            color: black;
+            font-weight: 900;
+        }
+    }
+}
+
+.footer a:hover{
+    color: black;
+    font-weight: 900;
+}

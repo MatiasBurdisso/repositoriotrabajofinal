@@ -1,0 +1,40 @@
+main{
+    background-color: #2b2d42;
+    padding: 5px;
+    .video1{
+        display: flex;
+        display: row;
+        align-items: flex-end;
+        padding: 5px;
+        margin-top: 40px;
+        align-content: center;
+        video{
+            width: 50%;
+        }
+        p{
+            width: 50%;
+            align-items: center;
+            margin: auto;
+            color: whitesmoke;
+        }
+        h2{
+            color: #D9D9D9;
+            width: 50%;
+            align-items: center;
+            padding: 30px;
+            margin-bottom: 89px;
+            margin: auto;
+            color: whitesmoke;
+            align-content: center;
+        }
+    }
+}
+@media (max-width:980px){
+    .video1{
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        margin-top: 40px;
+        flex-direction: column-reverse;}
+
+}

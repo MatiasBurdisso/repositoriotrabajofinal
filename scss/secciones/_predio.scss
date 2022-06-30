@@ -1,0 +1,19 @@
+main{
+    background-color: #2b2d42;
+    padding: 5px;
+    .imagenpredio{
+        width: 100%;}
+    h2{
+        @extend %letrablanco;
+    }
+    .predio{
+        display: flex; 
+        color:whitesmoke
+    }
+    .patio{
+        margin: auto;
+        padding: 17px;
+        width: 300px;
+    }
+    
+}

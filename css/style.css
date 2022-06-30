@@ -3,6 +3,12 @@
   padding: 0px;
   box-sizing: border-box; }
 
+main h2 {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 10%; }
+
 header {
   background-color: #353535;
   display: flex;
@@ -59,6 +65,11 @@ footer {
 main {
   background-color: #2b2d42;
   padding: 5px; }
+  main .slider {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url(../prototipo/fondo2.jpg);
+    background-size: cover; }
   main .video1 {
     display: flex;
     display: row;
@@ -90,3 +101,63 @@ main {
     padding: 5px;
     margin-top: 40px;
     flex-direction: column-reverse; } }
+
+.tarjetastorneos {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center; }
+
+.maincontacto {
+  background-image: url(../prototipo/fondo2.jpg);
+  background-size: cover;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .maincontacto .formulario {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 17px;
+    width: 300px;
+    background-color: #848c88; }
+    .maincontacto .formulario:hover {
+      background-color: black;
+      color: whitesmoke;
+      border: 1px solid gray;
+      border-radius: 30px;
+      padding: 17px;
+      width: 300px; }
+  .maincontacto .jugadorlogo {
+    width: 500px;
+    height: 500px; }
+
+main {
+  background-color: #2b2d42;
+  padding: 5px; }
+  main .imagenpredio {
+    width: 100%; }
+  main .predio {
+    display: flex;
+    color: whitesmoke; }
+  main .patio {
+    margin: auto;
+    padding: 17px;
+    width: 300px; }
+
+.mainrelgamento {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 17px;
+  width: 98%;
+  background-color: #848c88;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: auto; }
+
+.letrajustificada {
+  font-weight: 900; }

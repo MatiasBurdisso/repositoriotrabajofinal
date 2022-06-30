@@ -1,6 +1,12 @@
 main{
     background-color: #2b2d42;
     padding: 5px;
+    .slider{
+        border: 1px solid black;
+        border-radius: 30px;
+        background-image: url(../prototipo/fondo2.jpg);
+        background-size: cover;
+    }
     .video1{
         display: flex;
         display: row;

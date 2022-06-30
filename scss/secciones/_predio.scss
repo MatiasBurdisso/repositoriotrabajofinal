@@ -17,3 +17,12 @@ main{
     }
     
 }
+@media (max-width:980px){
+    .predio {
+        display: flex;
+        color: whitesmoke;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: center;}
+
+}

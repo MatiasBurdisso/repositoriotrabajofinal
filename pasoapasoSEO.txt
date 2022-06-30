@@ -1,0 +1,7 @@
+1. en la pagina de index, utilice como keywords, palabras como tercer tiempo, haciendo alusion a la caracteristica por cual nos queremos diferenciar, tambien palabra como futbol, amateur, torneo, y las categorias.
+2. en el resto de las paginas, trate de poner palabras puntuales como la caracteristica de cada pagina, ejemplo en contacto puse inscripcion, en predio asadores, canchas, en categoria, femenino, libre, categoria30, y repeti palabras como torneo, futbol.
+3. en TITLE puse el nombre del torneo, TORNEO RUSTICO, al lado del nombre de cada pagina. 
+4. en description puse el slogan dentro del contenido. 
+
+5.extend lo aplique dentro de predio, y mixin lo aplique en un hover dentro la pagina de contacto, en le formulario. 
+

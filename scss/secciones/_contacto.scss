@@ -24,4 +24,13 @@
     }
 
 }
-
+@media (max-width:980px){
+    .maincontacto{
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}

@@ -4,10 +4,14 @@ header{
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    .letracolorblanco{
+        color: whitesmoke;
+    }
     a{
         margin-left: 50px;
+        
         &:hover{
-            color: #D9D9D9;
+           
             font-weight: 900;
             animation-name: cambiocolor;
             animation-duration: 3s;
@@ -18,4 +22,9 @@ header{
         }
     }
 
+}
+@keyframes cambiocolor{
+    0%{color:blue;}
+    50%{color:aqua;}
+    100%{color:black;}
 }

@@ -2,11 +2,11 @@ main{
     background-color: #2b2d42;
     padding: 5px;
     
-    img:hover{
+    img{
+        &:hover{
         filter: blur(5px);
         transition:.3s;
-
-    }
+    }}
     .slider{
         border: 1px solid black;
         border-radius: 30px;

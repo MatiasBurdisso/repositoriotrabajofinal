@@ -71,6 +71,25 @@ footer {
   color: black;
   font-weight: 900; }
 
+.tarjetastorneos {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center; }
+  .tarjetastorneos .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+@media (max-width: 980px) {
+  .tarjetastorneos {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-direction: column; } }
+
 main {
   background-color: #2b2d42;
   padding: 5px; }
@@ -113,25 +132,6 @@ main {
     padding: 5px;
     margin-top: 40px;
     flex-direction: column-reverse; } }
-
-.tarjetastorneos {
-  padding: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center; }
-  .tarjetastorneos .card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
-
-@media (max-width: 980px) {
-  .tarjetastorneos {
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    align-items: center;
-    flex-direction: column; } }
 
 .maincontacto {
   background-image: url(../prototipo/fondo2.jpg);

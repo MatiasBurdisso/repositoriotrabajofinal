@@ -25,42 +25,42 @@
         <h1><a href="./index.html"><img src="./prototipo/logo3futbol.png" alt="Futbol"></a></h1>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand letracolorblanco" href="./index.html">INICIO</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link letracolorblanco" aria-current="page" href="./predio.html">Predio</a>
-                  <a class="nav-link letracolorblanco" href="./reglamento.html">Reglamento</a>
-                  <a class="nav-link letracolorblanco" href="./categoria.html">Categoria</a>
-                  <a class="nav-link letracolorblanco" href="./contacto.html">Contacto</a>
+                <a class="navbar-brand letracolorblanco" href="./index.html">INICIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link letracolorblanco" aria-current="page" href="./predio.html">Predio</a>
+                        <a class="nav-link letracolorblanco" href="./reglamento.html">Reglamento</a>
+                        <a class="nav-link letracolorblanco" href="./categoria.html">Categoria</a>
+                        <a class="nav-link letracolorblanco" href="./contacto.html">Contacto</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main class="maincontacto">
         <img class="jugadorlogo" src="./prototipo/diego maradona.png" alt="dibujojugador">
         <!-- formulario para para consultas e insripciones al torneo -->
         <form class="formulario" action="#" method="get">
-            <p>Nombre y Apellido</p>
-            <input type="text">
-            <p>Nombre Equipo</p>
-            <input type="text">
+            <h2>Formulario Registro</h2>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <input class="controls" type="equipo" name="equipo" id="equipo" placeholder="Ingrese Nombre Equipo">
             <p>Categoria</p>
             <select name="Categoria">
                 <option value="1">Femenino</option>
                 <option value="2">Libre</option>
                 <option value="3">+30</option>
             </select>
-            <p>Mail de Contacto</p>
-            <input type="email" placeholder="juanperez@gmail.com">
-            <p></p>
-            <input type="file" name="Lista Buena Fe">
-            <p>Comentarios</p>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit">
+            <p>lista Buena Fe</p>
+            <input class="controls" type="file" name="Lista Buena Fe">
+            <p>Estoy de acuerdo y acepto el <a href="./reglamento.html">reglamento</a></p>
+            <input class="botons" type="submit" value="Inscribirme">
         </form>
 
     </main>

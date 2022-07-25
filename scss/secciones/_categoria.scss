@@ -21,17 +21,6 @@
     }
 }
 
-@keyframes cambiofotofemenino{
-    0%{
-        background-image: url(../../prototipo/torneo\ femenino.jpg);
-    }
-    50%{
-        background-image: url(../../prototipo/torneolibre.jpg);
-    }
-    100%{
-        background-image: url(../../prototipo/torneo\ 30.jpg);
-    }  
-}
 @media (max-width:980px){
     .tarjetastorneos {
         padding: 5px;

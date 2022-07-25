@@ -77,6 +77,13 @@ footer {
   justify-content: space-between;
   align-content: center;
   align-items: center; }
+  .tarjetastorneos .card .imagentorneofemeninoanimacion {
+    animation-name: cambiofotofemenino;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear; }
   .tarjetastorneos .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
